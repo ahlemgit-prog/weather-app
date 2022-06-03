@@ -23,7 +23,7 @@
           </div>
           <div class="date">{{ dateBuilder() }}</div>
           <div class="weather-box">
-            <div class="temp">{{ Math.round(weather.main.temp) }}</div>
+            <div class="temp">{{ Math.round(weather.main.temp) }}°C</div>
             <div class="weather">{{ weather.weather[0].main }}</div>
           </div>
         </div>
@@ -159,6 +159,11 @@ main {
   background-color: rgba(255, 255, 255, 0.75);
   border-radius: 16px 0px 16px 0px;
 }
+
+.location-box {
+padding: 70px 0 0 0;
+}
+
 .location-box .location {
   color: white;
   font-size: 32px;
@@ -173,7 +178,6 @@ main {
   font-weight: 300;
   margin: 20px 0 0 0;
   text-align: center;
-  font-style: italic;
 }
 .weather-box {
   text-align: center;
@@ -198,7 +202,6 @@ main {
   color: white;
   font-size: 48px;
   font-weight: 700;
-  font-style: italic;
   text-shadow: 3px 6px rgba(0, 0, 0, 0.25);
 }
 </style>
