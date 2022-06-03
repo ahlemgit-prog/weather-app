@@ -60,27 +60,27 @@ export default {
     dateBuilder() {
       let d = new Date();
       let months = [
-        "January",
-        "February",
-        "March",
-        "April",
-        "May",
-        "June",
-        "July",
-        "August",
-        "September",
-        "October",
-        "November",
-        "December",
+        "Janvier",
+        "Février",
+        "Mars",
+        "Avril",
+        "Mai",
+        "Juin",
+        "Juillet",
+        "Août",
+        "Septembre",
+        "Octobre",
+        "Novembre",
+        "Décembre",
       ];
       let days = [
-        "Sunday",
-        "Monday",
-        "Tuesday",
-        "Wednesday",
-        "Thursday",
-        "Friday",
-        "Saturday",
+        "Dimanche",
+        "Lundi",
+        "Mardi",
+        "Mercredi",
+        "Jeudi",
+        "Vendredi",
+        "Samedi",
       ];
       let day = days[d.getDay()];
       let date = d.getDate();
@@ -101,6 +101,10 @@ export default {
 
 body {
   font-family: "montserrat", sans-serif;
+}
+
+element.style {
+  padding-top: 50px;
 }
 
 #app {
@@ -167,6 +171,7 @@ main {
   color: white;
   font-size: 20px;
   font-weight: 300;
+  margin: 20px 0 0 0;
   text-align: center;
   font-style: italic;
 }
