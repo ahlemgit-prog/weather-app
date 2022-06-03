@@ -1,23 +1,23 @@
 # vue-weather
 
-## uses OpenWeather API to search and display weather from accross the globe
-## Demo <a href="https://gillparm.github.io/weather-app/" target="_blank">Here</a>
+## J'utilise l'API OpenWeather pour rechercher et afficher la météo du monde entier
+## Demonstration <a href="https://ahlemgit-prog.github.io/weather-app/" target="_blank">ICI</a>
 
-#### by Parmandeep Gill
+#### by Essid Ahlem
 
-## Project setup
+## Configuration du projet
 
 ```
 npm install
 ```
 
-### Compiles and hot-reloads for development
+### Compile et recharge à chaud pour le développement
 
 ```
 npm run serve
 ```
 
-### Compiles and minifies for production
+### Compile et minimise pour la production
 
 ```
 npm run build
