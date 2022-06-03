@@ -10,7 +10,7 @@
         <input
           type="text"
           class="search-bar"
-          placeholder="Search..."
+          placeholder="Rechercher un lieu..."
           v-model="query"
           @keypress="fetchWeather"
         />
