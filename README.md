@@ -1,6 +1,6 @@
 # vue-weather
 
-## Utilisation d'API OpenWeather pour rechercher et afficher la météo du monde entier
+## J'utile l'API OpenWeather pour rechercher et afficher la météo du monde entier
 ## Demonstration <a href="https://ahlemgit-prog.github.io/weather-app/" target="_blank">ICI</a>
 
 #### by Essid Ahlem
